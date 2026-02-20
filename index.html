@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bridal & Gala Edit | Everyday Picks</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #1a1a1a; --accent: #d4af37; --bg-light: #faf9f6; --white: #ffffff; }
+        body { margin: 0; font-family: 'Inter', sans-serif; background: var(--bg-light); color: var(--primary); line-height: 1.6; }
+        header { position: sticky; top: 0; background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); border-bottom: 1px solid #e5e7eb; padding: 15px 5%; z-index: 1000; display: flex; justify-content: space-between; align-items: center; }
+        .back-btn { text-decoration: none; color: var(--primary); font-weight: 600; font-size: 14px; padding: 8px 16px; border: 1px solid #d1d5db; border-radius: 6px; }
+        .hero { padding: 50px 5%; max-width: 1200px; margin: 0 auto; text-align: center; }
+        .hero h1 { font-family: 'Playfair Display', serif; font-size: 48px; margin-bottom: 15px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px; }
+        .bridge-card { background: var(--white); border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); transition: 0.3s; }
+        .bridge-card:hover { transform: translateY(-5px); box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); }
+        .img-box { width: 100%; aspect-ratio: 3/4; overflow: hidden; }
+        .img-box img { width: 100%; height: 100%; object-fit: cover; }
+        .content { padding: 25px; flex-grow: 1; display: flex; flex-direction: column; text-align: left; }
+        .promo-badge { background: #b91c1c; color: white; font-size: 12px; font-weight: 700; padding: 4px 12px; border-radius: 4px; align-self: start; margin-bottom: 12px; }
+        .title { font-size: 20px; font-weight: 700; margin-bottom: 10px; font-family: 'Playfair Display', serif; }
+        .price-row { font-size: 24px; font-weight: 800; margin-bottom: 20px; }
+        .old-price { font-size: 16px; text-decoration: line-through; color: #6b7280; font-weight: 400; margin-left: 10px; }
+        .cta-main { display: block; background: var(--primary); color: var(--white); text-decoration: none; padding: 15px; border-radius: 8px; font-weight: 700; text-align: center; margin-top: auto; }
+        @media (max-width: 768px) { .hero h1 { font-size: 36px; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="https://every-day-picks.github.io/All-picks/" class="back-btn">← All Everyday Picks</a>
+        <div style="font-weight: 900; font-size: 24px; letter-spacing: -1px;">EVERYDAY<span style="color: var(--accent);">PICKS</span></div>
+    </header>
+
+    <section class="hero">
+        <h1>The Bridal & Gala Edit</h1>
+        <p>Curated luxury for your most memorable moments—from cathedral veils to custom couture.</p>
+
+        <div class="grid">
+            <div class="bridge-card">
+                <div class="img-box"><img src="images/_c45CgXWr.png" alt="African Mermaid Wedding Dress"></div>
+                <div class="content">
+                    <span class="promo-badge">32% OFF</span>
+                    <h3 class="title">One Shoulder African Mermaid Wedding Gown</h3>
+                    <div class="price-row">$102.82 <span class="old-price">$151.20</span></div>
+                    <a href="https://s.click.aliexpress.com/e/_c45CgXWr" class="cta-main" target="_blank">View Bridal Gown</a>
+                </div>
+            </div>
+
+            <div class="bridge-card">
+                <div class="img-box"><img src="images/_c3FbW5eR.png" alt="Flower Girl Dress"></div>
+                <div class="content">
+                    <span class="promo-badge">44% OFF</span>
+                    <h3 class="title">Balloon Sleeve Lace Flower Girl Dress</h3>
+                    <div class="price-row">$74.92 <span class="old-price">$133.80</span></div>
+                    <a href="https://s.click.aliexpress.com/e/_c3FbW5eR" class="cta-main" target="_blank">Shop Kids Couture</a>
+                </div>
+            </div>
+
+            <div class="bridge-card">
+                <div class="img-box"><img src="images/_c4mzu199.png" alt="Black Crystal Homecoming Dress"></div>
+                <div class="content">
+                    <span class="promo-badge">25% OFF</span>
+                    <h3 class="title">Black Crystal Beaded Mini Mermaid Dress</h3>
+                    <div class="price-row">$138.64 <span class="old-price">$184.85</span></div>
+                    <a href="https://s.click.aliexpress.com/e/_c4mzu199" class="cta-main" target="_blank">Order Customized</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
